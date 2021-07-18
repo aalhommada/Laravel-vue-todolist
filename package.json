@@ -10,9 +10,23 @@
         "production": "mix --production"
     },
     "devDependencies": {
+        "@popperjs/core": "^2.9.2",
         "axios": "^0.21",
+        "bootstrap": "^5.0.2",
+        "jquery": "^3.6",
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
-        "postcss": "^8.1.14"
+        "popper.js": "^1.16.1",
+        "postcss": "^8.1.14",
+        "resolve-url-loader": "^4.0.0",
+        "sass": "^1.32.11",
+        "sass-loader": "^11.0.1",
+        "vue-loader": "^15.9.7",
+        "vue-template-compiler": "^2.6.14"
+    },
+    "dependencies": {
+        "@popperjs/core": "^2.9.2",
+        "vue": "^2.6.14"
     }
 }
+
