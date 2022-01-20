@@ -25,6 +25,22 @@ Then do a composer install
 composer install
 ```
 
+copy .env.example file and rename it to .env
+and make a new database in mySql database, and name it what it ever you want , make sure that this name match in your .env file .
+
+make migration for the tables 
+
+```
+php artisan migrate
+```
+
+generate key 
+
+```
+php artisan key:generate
+```
+
+
 Then do a npm install
 
 ```
